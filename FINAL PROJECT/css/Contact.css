@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+#logo {
+    width: 100px;
+    height: 50px;
+  }
+  
+#navlist {
+    background:linear-gradient(to left, rgb(17, 75, 140) 20%, rgb(1, 200, 255));
+    opacity: 0.7;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  #navlist a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  #navlist a:hover {
+    background-color: rgb(8, 104, 130);
+    color: white;
+  }
+
+  #bghome {
+    background-image: url('/Users/rosualex/Desktop/COURSERA/JAVA_SCRIPT/FINAL PROJECT/Immagini/NewYork.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    backdrop-filter: blur(7px);
+  }
+  
+  #pagina{
+    width: 70%;
+    height: 100%;
+    margin-top: 80px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ourTeamDiv{
+    width: 1238px;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 300px;
+    margin-top:0px;
+    display:flex;
+}
+.OURTEAM{
+    color: white;
+    font-size: 70px;
+    font-weight: bolds;
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 5px;
+outline: none;
+}
+
+label {
+line-height: 1.9rem;
+}
+
+input[type="submit"] {
+transform: translate(2.2%);
+padding: 3px;
+margin-top: 0.6rem;
+font-weight: bold;
+}
+
+fieldset {
+padding: 20px 40px;
+}
+
+footer{
+  text-align: center;
+  color: white;
+}

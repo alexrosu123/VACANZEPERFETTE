@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+}
+
+#navlist {
+  background:linear-gradient(to left, rgb(17, 75, 140) 20%, rgb(1, 200, 255));
+  opacity: 0.7;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+#navlist a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navlist a:hover {
+  background-color: rgb(8, 104, 130);
+  color: white;
+}
+
+
+#bghome {
+  background-image: url('/Users/rosualex/Desktop/COURSERA/JAVA_SCRIPT/FINAL PROJECT/Immagini/NewYork.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  backdrop-filter: blur(7px);
+}
+
+#pagina{
+  width: 70%;
+  height: 100%;
+  margin-top: 80px ;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#titlepage {
+  font-size: 70px;
+  position: relative;
+  left: 40px;
+  width: 36%;
+  height: 50%;
+  padding:1px;
+  line-height: 55px;
+  font-weight: bold;
+}
+.testoHome {
+  color:white;
+  padding:20px;
+  opacity:1;
+
+}
+#descrizioneHome {
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+  width: 80%;
+  height: 50%;
+  line-height: 25px;
+  background: rgba(0, 0, 0, 0.259);
+  border-radius: 40px;
+}
+
+
+
+
+footer{
+  text-align: center;
+}
+
+
